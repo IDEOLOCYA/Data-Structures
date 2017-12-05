@@ -19,7 +19,7 @@ int data;
 
 Nodeları tren  vagonlarına benzetebiliriz. Her bir node kendinden sonraki node’un adresini tutarak ileri-geri hareketi 
 sağlayan bir yapıya sahip.
-[!https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/veri.jpg]
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/veri.jpg)
 Veri  data nın *ileri ise next pointerına denk gelmek üzere şekli yukarıdaki gibi çizilebilir.
 Linked list ileri-geri hareket kapasitesine göre 4’e ayrılır
 
@@ -31,7 +31,7 @@ Linked list ileri-geri hareket kapasitesine göre 4’e ayrılır
 1)One Way Linked List
 
 Nodelarında sadece ileri veya geri olarak tek bir yön olan linked list tipidir.
-[!https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/oneway_list.jpg]
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/oneway_list.jpg)
 Yukarıdaki gibi gösterilebilir. Programlarımızda son node’a ulaştığını anlayabilmemiz için son Node’
 un pointerı her zaman NULL’a eşitlemek gerekir. Bir nodedan diğerine geçtiğimizde önceki node’a dönmek istersek,  bu linked list 
 tipi sadece ileriyi gösterdiği için geri dönemeyiz. Bu yüzden programlarımızda bir head pointerı oluşturup ilk nodu’un adresine
@@ -42,7 +42,7 @@ pointerlar{pointer tipinin birim boyutu kadar} yer tutar).
 <h2>2)One Way Circular Linked List</h2>
 
 Bu linked list tipinde işin güzelliği sona gittikten sonra tekrar başa dönebilmemiz.
-[!https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/oneway_circular_list.jpg]
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/oneway_circular_list.jpg)
 Yani son node’un next pointerı NULL’u değil ilk node’u gösteriyor böylece Listede geri gitmek için yeteri kadar ileri gitmemiz
 yeterli oluyor. İlkinden tek farkı sonlanması gereken progrmalarda node sayısını bilmeden ilerleyememeiz bu node’un dezavantajıdır.
 Ama node sayımızı bilirsek rahatça ileri geri hareket edebiliriz.
@@ -50,7 +50,7 @@ Ama node sayımızı bilirsek rahatça ileri geri hareket edebiliriz.
 <h2>3)Double Way Linked List</h2>
 
 Bu linked list tipinde hem kendinden öncekini hem de kendinden sonrakini tuttar.
-[!https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/doubleway_list.jpg]
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/doubleway_list.jpg)
 Yukarıdaki şekilde de göreceğiniz gibi ilk tipimizden farkı iki yöne de gidebilmesidir. Yine son node’u NULL’a eşitlenmiş. 
 Son node’un null olması bizim programlarımızda looplarda ileri geri giderken koşul olarak null’a gelmişse dur diyebilmemizi 
 sağlar. Aynı döngüyü Circular listelerde yapmaya kalkarsak null olmayacağı için sonsuz loop’a düşer.
@@ -59,7 +59,7 @@ sağlar. Aynı döngüyü Circular listelerde yapmaya kalkarsak null olmayacağ�
 
 Bu listeyi tahmin etmişsinizdir. Tabi ki kendinden hem öncekini hem sonrasını gösteren hem de son Node’un next pointerı ilk 
 node’u gösterir.
-[!https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/doubleway_circular_list.jpg]
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/doubleway_circular_list.jpg)
 Şeklinde gösterilebilir. Şimdi gelelim işin kod kısmına , aşağıda one way linked listte hem node eklemeyi hemde bastırmayı görebiliriz. Önemli olan nokta ekleme yapacağımız zaman adres ile birlikte yollamamız gerektiği ama işlemi yaparken bir aracı kullanmak uygun olacaktır.
 
  
