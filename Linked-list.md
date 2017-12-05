@@ -64,3 +64,6 @@ node’u gösterir.
 
  
 Basit bir ortalama bulma programı yazarsak aşağıdaki gibi olacaktır.
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/link_list_one.png)
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/linked_list_two.png)
+![link to pictures](https://github.com/ahmetmuhammetkocabiyik/Data-Structures/blob/master/Images/linked_list_three.png)
